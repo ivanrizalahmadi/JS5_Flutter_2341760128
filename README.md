@@ -74,6 +74,58 @@ untuk output nya adalah seperti berikut
 
 # Praktikum 5: Menerapkan Widget Material Design dan IOS Cupertino
 
+Langkah awal adalah membuat file baru di folder widget, yaitu ada 2 
+cupertino dan fab
+![file baru](image-24.png)
+
+Untuk cupertino mendapati output sebagai berikut 
+![cupertino](image-25.png)
+
+Lalu untuk fab seperti berikut
+![alt text](image-26.png)
+
+
+selanjutnya adalah langkah 3 yaitu scaffold widget
+![alt text](image-27.png) 
+output:
+-Ada AppBar  dengan judul My Increment App.
+-Ada teks: “You have pushed the button this many times:”.
+-Ada angka counter (dimulai dari 0).
+-Ada BottomAppBar kosong di bagian bawah.
+-Ada FAB (+) di bagian tengah bawah.
+-Kalau tombol + ditekan, angka counter akan bertambah.
+
+Langkah 4 adalah Dialog Widget
+
+menampilkan tombol show untuk informasi 
+output seperti berikut
+![show](image-28.png)
+lalu di klik
+![alt text](image-29.png)
+
+
+Langkah 5
+![alt text](image-30.png)
+Lalu ketika di klik
+![alt text](image-31.png)
+Output yang muncul:
+
+Layar putih dengan tombol “Open SimpleDialog” di tengah.
+Kalau ditekan → keluar popup SimpleDialog berjudul “Pilih Menu”.
+Isi dialog ada 3 pilihan: Option 1, Option 2, Option 3.
+Kalau salah satu ditekan → dialog tertutup.
+
+Perbedaan dengan AlertDialog:
+AlertDialog dipakai buat konfirmasi/peringatan sedangkan SimpleDialog dipakai buat memilih opsi.
+
+Langkah 6
+membuat snackbar
+![snack](image-32.png)
+Ada tombol “Show SnackBar” di tengah layar.
+Saat ditekan → muncul SnackBar di bawah layar dengan teks “Halo, ini SnackBar!.
+Ada juga tombol aksi Tutup, kalau ditekan SnackBar langsung hilang.
+SnackBar otomatis menghilang setelah 3 detik.
+
 
 
 
