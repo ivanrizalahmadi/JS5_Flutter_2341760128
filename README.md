@@ -1,147 +1,151 @@
-# hello_world Project
-![Pengenalan](image-11.png)
+# 📱 Project Flutter: Hello World  
 
-# Praktikum 1: Membuat Project Flutter baru
+Laporan ini berisi dokumentasi langkah-langkah praktikum Flutter dari membuat project baru hingga menerapkan berbagai widget dasar, Material Design, dan Cupertino.
 
-ketik di command palette flutter , lalu klik Flutter:new
-![buat flutter di vs code](image-1.png)
+---
 
-setelah itu pilih yang application
-![second](image-2.png)
+## 📝 Praktikum 1: Membuat Project Flutter Baru  
 
-Lalu memilih folder untuk menyimpan flutter nya, disini saya memakai nama hello world
-![helloworld](image-3.png)
+1. Buka **Command Palette** di VS Code, ketik `Flutter`, lalu pilih **Flutter: New Project**.  
+   ![buat flutter di vs code](image-1.png)  
 
-Lalu flutter siap digunakan untuk project anda
-![flutter](image-4.png)
+2. Pilih **Application**.  
+   ![second](image-2.png)  
 
-# Praktikum 2: Setup Emulator
+3. Tentukan folder penyimpanan, misalnya dengan nama `hello_world`.  
+   ![helloworld](image-3.png)  
 
-disini saya menggunakan Android Studio untuk emulator saya
+4. Flutter siap digunakan untuk project Anda.  
+   ![flutter](image-4.png)  
 
-masuk ke bagian setting lalu download sdk dan plugin yang dibutuhkan
-![Android Studio](image-5.png)
+---
 
-Android Studio juga bisa custom untuk tampilan emulator nya, saya memilih sebagai berikut
-![pixel 9](image-6.png)
+## 🖥️ Praktikum 2: Setup Emulator  
 
-Lalu setelah custom kita coba untuk emulator nya, apakah bisa jalan
-![emulator flutter](image-7.png)
+1. Gunakan **Android Studio** untuk emulator.  
+   - Masuk ke menu **Settings** lalu unduh SDK dan plugin yang dibutuhkan.  
+   ![Android Studio](image-5.png)  
 
-berhasil berjalan untuk emulator nya, lalu kita coba untuk memakai aplikasi flutter di emulator nya
-![flutter app in emulator](image-8.png)
+2. Emulator dapat dikustomisasi, contoh tampilan yang dipakai:  
+   ![pixel 9](image-6.png)  
 
-# Praktikum 3: Membuat Repository Dan Laporan Menggunakan README
+3. Jalankan emulator untuk mengetes apakah sudah berfungsi.  
+   ![emulator flutter](image-7.png)  
 
-Membuat Repository baru, dan hubungkan dengan folder hello world flutter ini
-![New Repository](image-9.png)
+4. Aplikasi Flutter berhasil dijalankan di emulator.  
+   ![flutter app in emulator](image-8.png)  
 
-berhasil push project dan repository
-![push repo](image-10.png)
+---
 
-# Praktikum 4: Menerapkan Widget Dasar
+## 🌐 Praktikum 3: Membuat Repository & Laporan  
 
-Membuat folder dan file baru untuk widget
-![file folder baru](image-15.png)
+1. Buat **repository baru** di GitHub.  
+   ![New Repository](image-9.png)  
 
-mengisi file widget
-![file text_widget](image-16.png)
+2. Hubungkan project `hello_world` dengan repository.  
+   ![push repo](image-10.png)  
 
-memodifikasi file main.dart 
-![modif import](image-14.png)
-![modif main](image-13.png)
+---
 
-Lalu untuk Hasil Output nya adalah sebagai berikut 
-![output teks widget](image-17.png)
+## 🧩 Praktikum 4: Menerapkan Widget Dasar  
 
-Kita lanjutkan ke praktikum yang memuat gambar logo
+1. Buat folder `basic_widgets` lalu tambahkan file baru.  
+   ![file folder baru](image-15.png)  
 
-pertama tama kita membuat file baru lagi di folder basic_widget
-![img file](image-18.png)
+2. Contoh **Text Widget**:  
+   ![file text_widget](image-16.png)  
 
-setelahnya kita mengatur lokasi logo nya dan membuat folder asset, jangan lupa untuk memodifikasi file pubspec.yaml
-![logo nya](image-19.png)
+3. Modifikasi `main.dart` untuk memanggil widget.  
+   ![modif import](image-14.png)  
+   ![modif main](image-13.png)  
 
-isikan file dengan kode yang telah ada
-![kode img](image-20.png)
+4. **Output Text Widget:**  
+   ![output teks widget](image-17.png)  
 
-modifikasi main.dart nya agar sesuai untuk output nya
-![import img](image-21.png)
-![main img](image-22.png)
+5. Menambahkan **Image Widget**:  
+   - Buat file baru untuk widget gambar.  
+     ![img file](image-18.png)  
+   - Tambahkan folder `assets` dan atur di `pubspec.yaml`.  
+     ![logo nya](image-19.png)  
+   - Isi file widget sesuai kode.  
+     ![kode img](image-20.png)  
+   - Modifikasi `main.dart`.  
+     ![import img](image-21.png)  
+     ![main img](image-22.png)  
 
-untuk output nya adalah seperti berikut
-![output img](image-23.png)
+6. **Output Image Widget:**  
+   ![output img](image-23.png)  
 
-# Praktikum 5: Menerapkan Widget Material Design dan IOS Cupertino
+---
 
-Langkah awal adalah membuat file baru di folder widget, yaitu ada 2 
-cupertino dan fab
-![file baru](image-24.png)
+## 🎨 Praktikum 5: Material Design & Cupertino  
 
-Untuk cupertino mendapati output sebagai berikut 
-![cupertino](image-25.png)
+1. Buat file baru di folder `basic_widgets`:  
+   - **Cupertino Widget**  
+   - **Floating Action Button (FAB)**  
+   ![file baru](image-24.png)  
 
-Lalu untuk fab seperti berikut
-![alt text](image-26.png)
+2. **Output Cupertino Widget:**  
+   ![cupertino](image-25.png)  
 
+3. **Output FAB Widget:**  
+   ![alt text](image-26.png)  
 
-selanjutnya adalah langkah 3 yaitu scaffold widget
-![alt text](image-27.png) 
-output:
--Ada AppBar  dengan judul My Increment App.
--Ada teks: “You have pushed the button this many times:”.
--Ada angka counter (dimulai dari 0).
--Ada BottomAppBar kosong di bagian bawah.
--Ada FAB (+) di bagian tengah bawah.
--Kalau tombol + ditekan, angka counter akan bertambah.
+---
 
-Langkah 4 adalah Dialog Widget
+## 🏗️ Praktikum 6: Scaffold Widget  
 
-menampilkan tombol show untuk informasi 
-output seperti berikut
-![show](image-28.png)
-lalu di klik
-![alt text](image-29.png)
+Output Scaffold Widget:  
+- AppBar dengan judul **My Increment App**  
+- Teks: *“You have pushed the button this many times:”*  
+- Angka counter (awal = 0)  
+- BottomAppBar kosong  
+- FAB (+) di tengah bawah  
+- Tekan tombol `+` → angka counter bertambah  
 
+![alt text](image-27.png)  
 
-Langkah 5
-![alt text](image-30.png)
-Lalu ketika di klik
-![alt text](image-31.png)
-Output yang muncul:
+---
 
-Layar putih dengan tombol “Open SimpleDialog” di tengah.
-Kalau ditekan → keluar popup SimpleDialog berjudul “Pilih Menu”.
-Isi dialog ada 3 pilihan: Option 1, Option 2, Option 3.
-Kalau salah satu ditekan → dialog tertutup.
+## 💬 Praktikum 7: Dialog Widget  
 
-Perbedaan dengan AlertDialog:
-AlertDialog dipakai buat konfirmasi/peringatan sedangkan SimpleDialog dipakai buat memilih opsi.
+1. **AlertDialog**  
+   - Tombol “Show” untuk menampilkan informasi.  
+   - Output:  
+     ![show](image-28.png)  
+     ![alt text](image-29.png)  
 
-Langkah 6
-membuat snackbar
-![snack](image-32.png)
-Ada tombol “Show SnackBar” di tengah layar.
-Saat ditekan → muncul SnackBar di bawah layar dengan teks “Halo, ini SnackBar!.
-Ada juga tombol aksi Tutup, kalau ditekan SnackBar langsung hilang.
-SnackBar otomatis menghilang setelah 3 detik.
+2. **SimpleDialog**  
+   - Output awal: tombol “Open SimpleDialog” di tengah.  
+   - Jika ditekan → popup SimpleDialog muncul dengan 3 opsi.  
+   - Klik salah satu opsi → dialog tertutup.  
+   ![alt text](image-30.png)  
+   ![alt text](image-31.png)  
 
+**Perbedaan:**  
+- *AlertDialog*: konfirmasi/peringatan.  
+- *SimpleDialog*: memilih opsi.  
 
+---
 
+## 🍫 Praktikum 8: SnackBar  
 
+1. Buat tombol “Show SnackBar”.  
+2. Jika ditekan → muncul SnackBar dengan teks *“Halo, ini SnackBar!”*.  
+3. Ada tombol aksi **Tutup**.  
+4. SnackBar hilang otomatis setelah 3 detik.  
 
+![snack](image-32.png)  
 
+---
 
+## 📌 Kesimpulan  
 
+Dari serangkaian praktikum ini:  
+- Dipelajari dasar penggunaan Flutter: Text, Image, Scaffold, SnackBar, dan berbagai dialog.  
+- Flutter mendukung **Material Design (Android)** dan **Cupertino (iOS)**.  
+- Praktikum ini menjadi fondasi untuk membangun aplikasi Flutter yang lebih kompleks.  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-![Logo polinema](image-12.png)
+![Logo polinema](image-12.png)  
