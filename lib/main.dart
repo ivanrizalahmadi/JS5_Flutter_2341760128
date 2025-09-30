@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'basic_widgets/text_widget.dart';
+import 'basic_widgets/image_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,9 +52,18 @@ class _CounterPageState extends State<CounterPage> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'Angka: $_counter',
-          style: const TextStyle(fontSize: 30),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const MyTextWidget(), // teks merah
+            const SizedBox(height: 20),
+            Text(
+              'Angka: $_counter', //angka counter
+              style: const TextStyle(fontSize: 30),
+            ),
+            const SizedBox(height: 20),
+            const MyImageWidget(), // logo dari assets
+          ],
         ),
       ),
       floatingActionButton: Row(
