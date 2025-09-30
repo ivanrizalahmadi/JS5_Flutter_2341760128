@@ -1,6 +1,7 @@
 # 📱 Project Flutter: Hello World  
+![Pengenalan](image-11.png)
 
-Laporan ini berisi dokumentasi langkah-langkah praktikum Flutter dari membuat project baru hingga menerapkan berbagai widget dasar, Material Design, dan Cupertino.
+Laporan yang saya buat ini berisi dokumentasi langkah-langkah praktikum Flutter, dari membuat project baru hingga menerapkan berbagai widget dasar, Material Design, dan Cupertino.
 
 ---
 
