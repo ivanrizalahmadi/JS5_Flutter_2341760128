@@ -78,7 +78,7 @@ Laporan ini berisi dokumentasi langkah-langkah praktikum Flutter dari membuat pr
 
 ---
 
-## 🎨 Praktikum 5: Material Design & Cupertino  
+## 🎨 Praktikum 5 (Langkah 1 dan 2): Material Design & Cupertino  
 
 1. Buat file baru di folder `basic_widgets`:  
    - **Cupertino Widget**  
@@ -93,7 +93,7 @@ Laporan ini berisi dokumentasi langkah-langkah praktikum Flutter dari membuat pr
 
 ---
 
-## 🏗️ Praktikum 6: Scaffold Widget  
+## 🏗️ Langkah 3: Scaffold Widget  
 
 Output Scaffold Widget:  
 - AppBar dengan judul **My Increment App**  
@@ -107,7 +107,7 @@ Output Scaffold Widget:
 
 ---
 
-## 💬 Praktikum 7: Dialog Widget  
+## 💬 Langkah 4: Dialog Widget  
 
 1. **AlertDialog**  
    - Tombol “Show” untuk menampilkan informasi.  
@@ -128,7 +128,7 @@ Output Scaffold Widget:
 
 ---
 
-## 🍫 Praktikum 8: SnackBar  
+## 🍫 Langkah 5: SnackBar  
 
 1. Buat tombol “Show SnackBar”.  
 2. Jika ditekan → muncul SnackBar dengan teks *“Halo, ini SnackBar!”*.  
@@ -141,11 +141,8 @@ Output Scaffold Widget:
 
 ## 📌 Kesimpulan  
 
-Dari serangkaian praktikum ini:  
-- Dipelajari dasar penggunaan Flutter: Text, Image, Scaffold, SnackBar, dan berbagai dialog.  
-- Flutter mendukung **Material Design (Android)** dan **Cupertino (iOS)**.  
-- Praktikum ini menjadi fondasi untuk membangun aplikasi Flutter yang lebih kompleks.  
+Praktikum ini membahas pembuatan project Flutter baru, pengaturan emulator Android Studio, pembuatan repository GitHub untuk versioning, serta penerapan berbagai widget dasar Flutter seperti Text, Image, Scaffold, Dialog, SnackBar, hingga widget bergaya Material Design dan Cupertino. Dengan praktikum ini, peserta memperoleh pemahaman menyeluruh mulai dari setup lingkungan pengembangan, pengelolaan kode, hingga implementasi antarmuka pengguna dasar pada aplikasi Flutter.  
 
 ---
 
-![Logo polinema](image-12.png)  
+
